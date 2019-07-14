@@ -8,14 +8,50 @@ body{
     font-family: 'Open Sans',sans-serif;
     background-color: #131633;
     color:#34495e;
+    color:white;
     line-height:1.5;
 }
 
+header{
+    background-color:#353535
+
+}
+
+nav{
+    background-color:#8A502B
+
+}
 
 
-#login{}
-#enhance_your_career{}
-#important_stats{}
-#build_apps{}
-#build_games{}
-#build_websites{}
+#login{    /* color search https://www.schemecolor.com/*/
+    background-color: #941B0C
+
+}
+
+#enhance_your_career{
+    background-color:#001F5F
+
+}
+
+#important_stats{
+    background-color: #25D366
+
+}
+
+#build_apps{
+    background-color: #f89B24
+}
+
+#build_games{
+    background-color: #BEB7E3
+}
+
+#build_websites{
+    background-color: #B86B77
+
+}
+
+footer{
+    background-color:#FAE986
+
+}
