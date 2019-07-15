@@ -14,55 +14,55 @@ body{
 
 header{
     grid-area:header;
-    background-color:#353535
+    
 
 }
 
 nav{
     grid-area:nav;
-    background-color:#8A502B
+   
 
 }
 
 
 #login{    /* color search https://www.schemecolor.com/*/
     grid-area:login;
-    background-color: #941B0C
+    
 
 }
 
 #enhance_your_career{
     grid-area:enhance_your_career;
-    background-color:#001F5F
+   
 
 }
 
 #important_stats{
     grid-area:important_stats;
-    background-color: #25D366
+   
 
 }
 
 #build_apps{
     grid-area:build_apps;
-    background-color: #f89B24
+   
 }
 
 #build_games{
     grid-area:build_games;
-    background-color: #BEB7E3
+    
 }
 
 #build_websites{
     grid-area:build_websites;
-    background-color: #B86B77
+    
 
 }
 
 footer{
-    grid-area:footer;
-    background-color:#FAE986
-
+    grid-area: footer;
+    margin:20px 0;
+    text-align: center;
 }
 /* The fr unit (a "fraction") can be used when defining grids like any other CSS length*/
 /* vh mean vertical height*/
@@ -134,4 +134,46 @@ footer{
         "footer";
     }
        
+}
+
+header h1{
+    font-size: 3.25em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #22638E;
+}
+
+.options{
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    border-top: 4px solid #0c5a8f;
+    border-radius: 3px;
+
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.options-link{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #1068a3;
+}
+ 
+.options-link:hover{
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
+}
+
+
+.card{
+    background-color: white;
+}
+ 
+.card-blue{
+    background-color: #9ebcf5;
 }
