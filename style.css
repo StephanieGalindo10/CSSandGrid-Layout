@@ -8,7 +8,7 @@ body{
     font-family: 'Open Sans',sans-serif;
     background-color: #131633;
     color:#34495e;
-    color:white;
+   
     line-height:1.5;
 }
 
@@ -185,4 +185,36 @@ header h1{
     padding: 5px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+/*--login information*/
+input{
+    width: 85%;
+    color: rgb(13, 13, 196);
+    background-color: rgb(214, 229, 241);
+    font-size: 1.25em;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+section{
+    padding:10px;
+    text-align: center;
+}
+.graphs{
+    font-size: 100px;
+    line-height: 1;
+    margin: 10px 0;
+    text-align: center;
+}
+
+section img{
+    max-width: 100%;
+}
+.profile{
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 6px solid #4f97d5;
 }
