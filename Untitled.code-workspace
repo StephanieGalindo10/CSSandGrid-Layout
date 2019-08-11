@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Grid-Layout",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "/Users/stephaniegalindo/Desktop/0205-end/images"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
