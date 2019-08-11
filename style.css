@@ -164,7 +164,7 @@ section img{
     
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1400px){
     main{
         width:90%;
         max-width: 800px;
